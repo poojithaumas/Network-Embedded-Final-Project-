@@ -1,0 +1,11 @@
+Hardware & Software Requirements:
+i.	Hardware
+ •	ESP32 Thing boards: For sensor nodes.
+ •	Raspberry Pi 4: Gateway node.
+ •	Sensors: Light sensor, accelerometer/gyroscope(ICM-20948), vibration sensor.
+ •	Networking: Wi-Fi/BLE.
+ii.	Software
+ •	Arduino IDE (firmware development).
+ •	Python 3.x(sync algorithm, analysis).
+ •	pandas, numpy, matplotlib (data analysis + visualization).
+ •	NTP/PTP clients (benchmarking).
