@@ -1,0 +1,7 @@
+Time synchronization is the basis for distributed embedded systems. From autonomous vehicles synchronizing actions to IoT smart homes cutting energy usage, synchronized clocks are required for reliable communication, event ordering, and control action.
+Legacy techniques like NTP (Network Time Protocol) and PTP (Precision Time Protocol) get synchronized, but are:
+    •	Too heavyweight for low-power IoT devices.
+    •	Resource hungry, using extra packets, extra computation, and reliable network links.
+    •	Vulnerable to drift in noisy wireless environments.
+Concurrently, most IoT/edge devices already produce timestamped sensor readings (temperature, vibration, light, etc.) sent from time to time to gateways. We could thus forego loading dedicated synchronisation protocols on devices and instead use native sensor data streams to synchronize clocks across nodes.
+This project aims to design and test a lightweight, sensing-based time synchronisation protocol for embedded IoT devices, based on a Raspberry Pi gateway.
