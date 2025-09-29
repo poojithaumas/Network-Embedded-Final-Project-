@@ -1,0 +1,22 @@
+Team Members & Roles:
+Abishek Thirunavukkarasu – Setup + Networking
+ •	Hardware bring-up (ESP32s + Raspberry Pi, sensors).
+ •	Configure Wi-Fi/Bluetooth stack between ESP32s and Raspberry Pi.
+ •	Measure and log network delay, jitter, and packet loss.
+ •	Maintain connectivity tests and debugging scripts.
+Poojitha Singh – Embedded Software + Data Analysis
+ •	Develop ESP32 firmware for timestamped sensor data generation and transmission.
+ •	Validate the integrity of transmitted sensor logs.
+ •	Collect experimental data sets from multiple runs.
+ •	Perform initial exploratory analysis.
+Deepikaveni Venkatanarayanan – Algorithm Design + Protocol Development
+ •	Design synchronization protocol logic on Raspberry Pi.
+ •	Implement drift estimation and compensation algorithm.
+ •	Explore adaptive correction as an extension.
+ •	Benchmark protocol against standard implementations.
+Sanjay Kumar Palanivelu – Research + Writing
+ •	Review references
+ •	Document design goals, system architecture, and evaluation methodology.
+ •	Maintain GitHub repo (README, code structure, issue tracking).
+ •	Compile final report and presentation materials.
+
