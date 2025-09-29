@@ -1,0 +1,19 @@
+System Blocks:
+1. Sensor Nodes (ESP32)
+ •	Collect periodic sensor readings (temperature/light/vibration).
+ •	Attach local timestamps.
+ •	Transmit data via Wi-Fi/Bluetooth to Raspberry Pi.
+2. Communication Layer
+ •	Provides link between ESP32 nodes and Raspberry Pi.
+ •	Handles latency, jitter, and packet reordering.
+3. Raspberry Pi Gateway
+ •	Receives sensor streams.
+ •	Runs synchronization protocol.
+ •	Estimates relative drift and applies correction.
+4. Drift & Delay Estimation Module
+ •	Performs statistical analysis of inter-arrival times.
+ •	Builds clock offset models.
+ •	Optionally uses regression/ML to predict long-term drift.
+5. Evaluation & Benchmarking
+ •	Runs side-by-side with NTP/PTP for accuracy comparison.
+ •	Generates plots and logs for quantitative analysis.
