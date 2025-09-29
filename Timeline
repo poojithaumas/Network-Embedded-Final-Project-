@@ -1,0 +1,17 @@
+Project Timeline:
+Week 1–2 (Setup & Firmware):
+ •	Bring up ESP32 + Raspberry Pi environment.
+ •	Implement basic timestamped data logging + transmission.
+Week 3–4 (Protocol Implementation):
+ •	Prototype sync protocol on Raspberry Pi.
+ •	Begin initial delay/jitter measurements.
+Week 5–6 (Algorithm Development):
+ •	Implement drift estimation and correction logic.
+ •	Explore adaptive methods (event-based, ML).
+Week 7 (Benchmarking):
+ •	Evaluate under varied network loads.
+ •	Collect experimental results.
+Week 8 (Integration & Finalization):
+ •	Polish GitHub repo.
+ •	Prepare graphs, plots, and a final report.
+ •	Rehearse demo + presentation.
