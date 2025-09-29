@@ -1,3 +1,5 @@
+Motivation:
+
 Time synchronization is the basis for distributed embedded systems. From autonomous vehicles synchronizing actions to IoT smart homes cutting energy usage, synchronized clocks are required for reliable communication, event ordering, and control action.
 Legacy techniques like NTP (Network Time Protocol) and PTP (Precision Time Protocol) get synchronized, but are:
     •	Too heavyweight for low-power IoT devices.
