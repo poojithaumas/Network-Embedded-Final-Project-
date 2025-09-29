@@ -1,0 +1,8 @@
+Deliverables:
+•	ESP32 Firmware: Sensor data logging + timestamp embedding + transmission via Wi-Fi/Bluetooth.
+•	Raspberry Pi Protocol Stack: Software for ingesting data, applying sync protocol, and computing drift adjustments.
+•	Network Analysis: Measurements of one-way delay, jitter, and packet loss impact on sync accuracy.
+•	Drift Estimation Module: Algorithms to calculate and correct clock offsets between devices.
+•	Benchmark Suite: Accuracy/error comparison against NTP/PTP under identical conditions.
+•	Visualization Toolkit: Graphs of drift, error trends, delay distributions.
+•	Final Report + GitHub Repo: Documentation, results, and implementation details.
